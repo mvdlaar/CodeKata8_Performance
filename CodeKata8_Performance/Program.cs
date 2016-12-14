@@ -4,6 +4,11 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// This is a possible solution to the problem in CodeKata 08 (http://codekata.com/kata/kata08-conflicting-objectives/)
+/// This has been "optimized" for performance
+/// The runtime is a couple of seconds for the given wordlist (limited by the output speed of the console)
+/// </summary>
 namespace CodeKata8_Performance
 {
     class Program
